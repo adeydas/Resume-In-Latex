@@ -1,0 +1,91 @@
+% LaTeX file for resume 
+% This file uses the resume document class (res.cls)
+% This file use the font helvetica
+
+\documentclass{res} 
+\usepackage{helvetica} 
+\newsectionwidth{0pt}  
+\usepackage{fancyhdr}  
+\usepackage{lmodern}
+\renewcommand{\headrulewidth}{0pt} 
+\setlength{\headheight}{24pt} 
+\setlength{\headsep}{24pt}  
+\setlength{\headheight}{24pt} 
+\pagestyle{fancy}    
+\rhead{ {\it A. Dey Das}\\{\it p. \thepage} } 
+\cfoot{}                                    
+\topmargin=-0.5in 
+
+\begin{document}
+\thispagestyle{empty}  
+\name{ABHISHEK DEY DAS\\[12pt]}
+
+\address{{\bf Email}: abhishek[at]abhis[dot]ws}      
+                                      
+\address{{\bf Phone}: Available on request} 
+
+
+
+\begin{resume} 
+  
+\vspace{0.2in} 
+\section{\centerline{PROFESSIONAL EXPERIENCE}} 
+\vspace{8pt}
+
+{\sl Amazon, Vancouver, BC} \\[2pt]
+Software Development Engineer II \hfill    April 2017 - Present
+
+ \begin{itemize} \itemsep -2pt
+  \item Designed and developed notification batching service for brand owners on Seller Central using DynamoDb, reducing spam, increasing click-through rates and encapsulating notification concerns to the user-interface layer.
+  \item Developed a proof of concept for bringing together misconduct checks of vendor and seller identity pools with the goal of reducing cross-platform misconduct, garnering stake-holder interest.
+\end{itemize} \vspace{-6pt}
+
+{\sl Amazon, Seattle, WA} \\[2pt]
+Software Development Engineer I \hfill    August 2015 - March 2017
+
+ \begin{itemize} \itemsep -2pt
+  \item  Designed and developed a workflow based service enabling more invasive misconduct checks for third-party sellers on Seller Central, reducing registration time misconduct. 
+  \item  Developed neat abstractions for a stack of variable computers in JAVA and Spring for a machine learning executor service, reducing redundant code and increasing maintainability.
+\end{itemize} \vspace{-6pt}
+
+{\sl Tango Analytics LLC, Dallas, TX} \\[2pt]
+Software Developer \hfill    June 2014 - August 2015
+
+ \begin{itemize} \itemsep -2pt
+  \item  Designed and developed several geo-spatial plugins for Pentaho Data Integration, a business intelligence tool in JAVA, replacing a proprietary system and reducing costs.
+\end{itemize} \vspace{-6pt}
+
+{\sl Tango Analytics LLC, Dallas, TX} \\[2pt]
+Software Developer Intern \hfill    Winter 2014
+
+ \begin{itemize} \itemsep -2pt
+  \item  Developed a plugin for Alteryx in C\# .NET to generate drive time polygons, replacing manual SOP's and saving time.
+  \item Developed a desktop tool to submit request, poll for and download drive time polygons from remote servers, replacing manual SOP's and saving time.
+\end{itemize} \vspace{-6pt}
+
+{\sl Amazon, Seattle, WA} \\[2pt]
+Software Development Engineer Intern \hfill    Summer 2013
+
+ \begin{itemize} \itemsep -2pt
+  \item  Developed a transmutation protocol for a RPC based micro-service framework in JAVA where instead of using reflection, generated code based on API models, reducing run time by 18\% and increasing testability.
+\end{itemize} \vspace{-6pt}
+ 
+\vspace{0.2in}
+\section{\centerline{EDUCATION}} 
+\vspace{8pt} 
+{\sl Master of Science}, Software Engineering \\
+The University of Texas at Dallas, Dallas, TX \hfill May 2014
+ 
+{\sl Bachelor of Technology}, Computer Science and Engineering \\ 
+Gandhi Institute of Engineering and Technology, Gunupur, India      \hfill    May 2010
+
+\vspace{0.2in}
+\section{\centerline{HONOURS AND AWARDS}} 
+\vspace{8pt} 
+\begin{itemize}
+	\item Finalist, software presentation competition, Kshitij 2009, Indian Institute of Technology, Kharagpur.
+	\item 2nd, Microsoft Dev Studio competition 2008, SRM University, Chennai.
+\end{itemize}
+ 
+\end{resume} 
+\end{document}
